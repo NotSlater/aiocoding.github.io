@@ -41,13 +41,13 @@
   bottom: 0px;
   margin: auto;
   position: absolute;
-  align-self: left;
+  align-self: right;
 }
 .feature-card-root-class-name3 {
   top: 20px;
   left: 0px;
   position: absolute;
-  align-self: center;
+  align-self: right;
 }
 @media(max-width: 767px) {
   .feature-card-card {
@@ -129,7 +129,7 @@
   flex: 0 0 auto;
   width: 100%;
   display: flex;
-  align-items: flex-start;
+  /*align-items: flex-start;*/
   flex-direction: column;
 }
 .home-feature {
