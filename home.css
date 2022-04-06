@@ -32,7 +32,7 @@
   bottom: 0px;
   margin: auto;
   position: absolute;
-  align-self: flex-start;
+  align-self: right;
 }
 .feature-card-root-class-name1 {
   top: 0px;
@@ -70,7 +70,7 @@
   top: 20px;
   left: 675px;
   position: absolute;
-  align-self: center;
+  align-self: right;
 }
 @media(max-width: 767px) {
   .feature-card-card {
