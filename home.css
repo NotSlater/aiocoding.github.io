@@ -27,27 +27,29 @@
   margin-bottom: var(--dl-space-space-unit);
 }
 .feature-card-root-class-name1 {
-  top: 0px;
+  top: 20px;
   left: 0px;
   right: 0px;
   bottom: 0px;
-  margin: auto;
+  margin-left: 0px;
+  margin-right: 0px;
   position: absolute;
   align-self: right;
 }
 .feature-card-root-class-name2 {
-  top: 0px;
+  top: 20px;
   left: 0px;
   bottom: 0px;
-  margin: auto;
+  margin-left: 675px;
   position: absolute;
-  align-self: right;
+  align-self: center;
 }
 .feature-card-root-class-name3 {
   top: 20px;
   left: 0px;
+  margin-left: 0px;
   position: absolute;
-  align-self: right;
+  align-self: left;
 }
 @media(max-width: 767px) {
   .feature-card-card {
