@@ -1,213 +1,232 @@
-<html lang="en" data-whatinput="mouse" data-whatintent="mouse"><head><base href="/"><meta name="application-name" content="TeleportHQ"><meta name="mobile-web-app-capable" content="yes"><meta name="theme-color" content="#0f8fff"><meta property="og:title" content="TeleportHQ"><meta property="og:type" content="website"><meta property="og:url" content="https://teleporthq.io/"><meta property="og:image" content="https://play.teleporthq.io/static/img/playground-banner.png"><meta property="og:image:type" content="image/png"><meta property="og:site_name" content="TeleportHQ"><meta name="twitter:site" content="@teleportHQio"><meta name="twitter:title" content="TeleportHQ"><meta name="twitter:image" content="https://play.teleporthq.io/static/img/playground-banner.png"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:creator" content="@teleportHQio"><style>
-            #__next {
-              min-height: 100vh;
-              display: flex;
-              flex-flow: column;
-            }
-
-            .global-container-mask {
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              background-color: var(--color-neutral-200);
-              flex: 1;
-              height: 100%;
-              width: 100%;
-              align-self: stretch;
-              z-index: 100;
-            }
-
-            :global(body.light-theme) .global-container-mask {
-              background-color: var(--color-neutral-100);
-            }
-
-            #crisp-chatbox a {
-              transform: scale(0.8);
-              bottom: 15px;
-            }
-          </style><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1" class="jsx-3696472996"><meta name="description" content="Teleport is Website visual builder with free code export, real time collaboration &amp; one click publishing!"><meta property="og:description" content="Teleport is Website visual builder with free code export, real time collaboration &amp; one click publishing!"><meta name="twitter:description" content="Teleport is Website visual builder with free code export, real time collaboration &amp; one click publishing!"><link rel="icon" type="image/png" href="/static/img/favicon-16x16.png" sizes="16x16"><link rel="icon" type="image/png" href="/static/img/favicon-32x32.png" sizes="32x32"><meta name="next-head-count" content="7"><noscript data-n-css=""></noscript><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-HYBRNL4BBC&amp;l=dataLayer&amp;cx=c"></script><script type="text/javascript" async="" src="https://js.refiner.io/v001/client.js"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-5HFFGVX"></script><script defer="" nomodule="" src="/_next/static/chunks/polyfills-5cd94c89d3acac5f.js"></script><script src="/_next/static/chunks/webpack-c9dc4c4d0d3fc227.js" defer=""></script><script src="/_next/static/chunks/framework-eeba1b405d308ec4.js" defer=""></script><script src="/_next/static/chunks/main-d0904ee70086bb5a.js" defer=""></script><script src="/_next/static/chunks/pages/_app-9e6a6a68f2e156b6.js" defer=""></script><script src="/_next/static/chunks/29107295-fcd63f8c12f2db96.js" defer=""></script><script src="/_next/static/chunks/1507-7e7e71912996071e.js" defer=""></script><script src="/_next/static/chunks/3274-ed33aa3fffdf0262.js" defer=""></script><script src="/_next/static/chunks/8161-15324afdd9310d92.js" defer=""></script><script src="/_next/static/chunks/252-90da29edae462ac2.js" defer=""></script><script src="/_next/static/chunks/2433-cbc5430b4df2b3ed.js" defer=""></script><script src="/_next/static/chunks/5259-cc058a29fc27bdcb.js" defer=""></script><script src="/_next/static/chunks/3012-52999afc56b50d7c.js" defer=""></script><script src="/_next/static/chunks/3908-96bc90d99849b85d.js" defer=""></script><script src="/_next/static/chunks/pages/projects/%5Bslug%5D/preview/%5BcompId%5D-98c7a880ffd4c5e5.js" defer=""></script><script src="/_next/static/v3.0.12/_buildManifest.js" defer=""></script><script src="/_next/static/v3.0.12/_ssgManifest.js" defer=""></script><script src="/_next/static/v3.0.12/_middlewareManifest.js" defer=""></script><style data-href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&amp;display=swap">@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcesanspro/v19/6xK3dSBYKcSV-LCoeQqfX1RYOo3aPA.woff) format('woff')}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcesanspro/v19/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rAkw.woff) format('woff')}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcesanspro/v19/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vAkw.woff) format('woff')}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:900;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcesanspro/v19/6xKydSBYKcSV-LCoeQqfX1RYOo3iu4nAkw.woff) format('woff')}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcesanspro/v19/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNa7lujVj9_mf.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcesanspro/v19/6xK3dSBYKcSV-LCoeQqfX1RYOo3qPK7lujVj9_mf.woff2) format('woff2');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcesanspro/v19/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNK7lujVj9_mf.woff2) format('woff2');unicode-range:U+1F00-1FFF}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcesanspro/v19/6xK3dSBYKcSV-LCoeQqfX1RYOo3qO67lujVj9_mf.woff2) format('woff2');unicode-range:U+0370-03FF}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcesanspro/v19/6xK3dSBYKcSV-LCoeQqfX1RYOo3qN67lujVj9_mf.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcesanspro/v19/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNq7lujVj9_mf.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcesanspro/v19/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7lujVj9w.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcesanspro/v19/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwmhdu3cOWxy40.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcesanspro/v19/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwkxdu3cOWxy40.woff2) format('woff2');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcesanspro/v19/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwmxdu3cOWxy40.woff2) format('woff2');unicode-range:U+1F00-1FFF}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcesanspro/v19/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlBdu3cOWxy40.woff2) format('woff2');unicode-range:U+0370-03FF}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcesanspro/v19/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwmBdu3cOWxy40.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcesanspro/v19/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwmRdu3cOWxy40.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcesanspro/v19/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdu3cOWxw.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcesanspro/v19/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmhdu3cOWxy40.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcesanspro/v19/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwkxdu3cOWxy40.woff2) format('woff2');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcesanspro/v19/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmxdu3cOWxy40.woff2) format('woff2');unicode-range:U+1F00-1FFF}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcesanspro/v19/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlBdu3cOWxy40.woff2) format('woff2');unicode-range:U+0370-03FF}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcesanspro/v19/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmBdu3cOWxy40.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcesanspro/v19/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmRdu3cOWxy40.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcesanspro/v19/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdu3cOWxw.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:900;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcesanspro/v19/6xKydSBYKcSV-LCoeQqfX1RYOo3iu4nwmhdu3cOWxy40.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:900;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcesanspro/v19/6xKydSBYKcSV-LCoeQqfX1RYOo3iu4nwkxdu3cOWxy40.woff2) format('woff2');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:900;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcesanspro/v19/6xKydSBYKcSV-LCoeQqfX1RYOo3iu4nwmxdu3cOWxy40.woff2) format('woff2');unicode-range:U+1F00-1FFF}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:900;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcesanspro/v19/6xKydSBYKcSV-LCoeQqfX1RYOo3iu4nwlBdu3cOWxy40.woff2) format('woff2');unicode-range:U+0370-03FF}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:900;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcesanspro/v19/6xKydSBYKcSV-LCoeQqfX1RYOo3iu4nwmBdu3cOWxy40.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:900;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcesanspro/v19/6xKydSBYKcSV-LCoeQqfX1RYOo3iu4nwmRdu3cOWxy40.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:900;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcesanspro/v19/6xKydSBYKcSV-LCoeQqfX1RYOo3iu4nwlxdu3cOWxw.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}</style><script src="https://js.stripe.com/v3"></script><style type="text/css" data-styled-jsx=""></style><script src="https://client.crisp.chat/l.js" async=""></script><link href="https://client.relay.crisp.chat" rel="dns-prefetch" crossorigin=""><link href="https://client.crisp.chat" rel="preconnect" crossorigin=""><script src="https://client.crisp.chat/static/javascripts/client.js?02e16b8" type="text/javascript" async=""></script><link href="https://client.crisp.chat/static/stylesheets/client_default.css?02e16b8" type="text/css" rel="stylesheet"><title>Preview | feedbox-mobile-app-8oys1e - TeleportHQ</title><link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"></head><body class="dark-theme"><div id="__next" data-reactroot=""><div id="frame-container" class="jsx-1524840290 frame-container" style="width: 1639px; height: 100vh;"><iframe id="stage-frame" scrolling="yes" class="jsx-1524840290"></iframe></div><div class="jsx-2274914801 notifications-container"></div></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/projects/[slug]/preview/[compId]","query":{},"buildId":"v3.0.12","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script><next-route-announcer><p aria-live="assertive" id="__next-route-announcer__" role="alert" style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap; overflow-wrap: normal;"></p></next-route-announcer><iframe name="__privateStripeMetricsController2820" frameborder="0" allowtransparency="true" scrolling="no" allow="payment *" src="https://js.stripe.com/v3/m-outer-23335cd0c833d03926d94e8fb5cb0381.html#url=https%3A%2F%2Fplay.teleporthq.io%2Fprojects%2Ffeedbox-mobile-app-8oys1e%2Fpreview%2Fa29ffbd0-293d-45a2-993b-d6b3ad1857ef&amp;title=&amp;referrer=&amp;muid=231d0146-e905-48d2-b358-7212a5adaf86546b2b&amp;sid=d678b0af-8824-445d-9706-744c29c88b283460ae&amp;version=6&amp;preview=false" aria-hidden="true" tabindex="-1" style="border: none !important; margin: 0px !important; padding: 0px !important; width: 1px !important; min-width: 100% !important; overflow: hidden !important; display: block !important; visibility: hidden !important; position: fixed !important; height: 1px !important; pointer-events: none !important; user-select: none !important;"></iframe><script id="second" data-nscript="lazyOnload">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-              })(window,document,'script','dataLayer','GTM-5HFFGVX');</script><script id="fourth" data-nscript="lazyOnload">window.$crisp=[];window.CRISP_WEBSITE_ID="17c424ea-6dd7-4982-b626-a7c2576b8e8e";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script><script id="fifth" data-nscript="lazyOnload">function getTarget(e){const t=[];if(e.path)return e.path.forEach(e=>{let n=[];e&&e.classList&&(n=Array.from(e.classList).filter(e=>e&&!e.includes("jsx-"))),e&&t.push(e.nodeName+"|class:"+n.join(" ")+"|id:"+e.id+"|data:"+["tokenId","nodeId","componentId"].map(t=>e.dataset?e.dataset[t]:"").join("|"))}),t.slice(0,-4)}function getSessionCookie(){return document.cookie.split("; ").find(e=>e.startsWith("_tlp_sessid"))}try{window.addEventListener("click",function(e){var t=getSessionCookie();t=t?t.split("=")[1]:"";var n={origin:"client",email:window.intercomSettings?window.intercomSettings.email:null,target:getTarget(e),screenX:e.screenX,screenY:e.screenY,id:e.target.id,sessid:t,referrer:document.referrer,className:"string"==typeof e.target.className?e.target.className:"",text:e.target.innerText||"",parent:e.target.parentElement?e.target.parentElement.tagName:null,time:(new Date).getTime(),href:location.href,userAgent:navigator.userAgent,window:{height:window.innerHeight,width:window.innerWidth}};teleport.push(n)})}catch(e){console.log(e)}</script><script id="sixth" data-nscript="lazyOnload">window._refinerQueue = window._refinerQueue || []; function _refiner(){_refinerQueue.push(arguments);} _refiner('setProject', 'e12072b0-4c4c-11ec-b721-5f9a79e7a8ee'); (function(){var a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src="https://js.refiner.io/v001/client.js";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})();</script><div id="refiner-widget-wrapper" style="width: 0px; height: 0px; max-height: 100%; display: block; position: fixed; background: transparent; backface-visibility: hidden; z-index: 100000; margin: 0px; padding: 0px; transition: all 0s ease 0s; inset: auto auto 0px 0px;"><iframe id="refiner-widget-frame" scrolling="no" src="https://js.refiner.io/v001/render/index.html" style="width: 100%; height: 100%; max-height: 100%; border: none; display: block; margin: 0px; padding: 0px; background: transparent; backface-visibility: hidden; transition: all 0s ease 0s;"></iframe></div><div style="display: none; visibility: hidden;"><div id="consent"><span>We're using cookies to ensure you get the best experience on our website.</span> <span>
-  <a href="https://teleporthq.io/terms-privacy">Read more</a>
-  <button onclick="setConsent()">OK</button>
-  <span>
-</span></span></div>
-<style type="text/css">
-  #consent  {
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: fixed;
-    bottom: 0;
-    background-color: #000;
-    color: #d9d9d9;
-    width: 100%;
-    font-family: "Avenir Book", Helvetica, Arial, sans-serif;
-    box-shadow: -2px -4px 4px #00000020;
-    z-index: 1000000;
-    padding: 8px;
-    font-size: 14px;
-  }
-  
-  #consent > span > button {
-    background: #fff;
-    color: #000;
-    margin: 0 0 0 20px;
-    line-height: 1;
-    border-radius: 50px;
-    padding: 10px 16px 7px;
-    border: 0 none;
-  }
-  
-  #consent a {
-  	color: #fff; 
-  }
-  
-  @media only screen and (max-width: 750px) {
-    #consent {
-      flex-direction: column; 
-    }
-    #consent > span > button {
-      margin: 20px 0 0 20px; 
-    }
-  }
-</style>
-<script>var consent=document.getElementById("consent"),visibleConsent=consent.cloneNode(!0),expire=(new Date).getTime()+7776E6;function setConsent(){document.cookie="teleportHQconsent\x3dtrue; expires\x3d"+(new Date(expire)).toString();visibleConsent.style.display="none"}function showConsent(){("play.teleporthq.io"!==location.hostname||["/signup","/signin"].includes(location.pathname))&&document.body.appendChild(visibleConsent)}
--1===document.cookie.search("teleportHQconsent")&&(document.cookie="teleportHQconsent\x3dfalse; expires\x3d"+(new Date(expire)).toString());-1<document.cookie.search("; teleportHQconsent\x3dfalse")&&showConsent();</script></div><script type="text/javascript" id="">(function(){function k(){(location.pathname!==l||f)&&d("tlp/page/"+f?"entry":"");f&&(f=!1);l=location.pathname;setTimeout(k,1E3)}function m(){var a=new Date;a.setTime(a.getTime()+9E5);return"expires\x3d"+a.toUTCString()}function g(){return document.cookie.split("; ").find(function(a){return a.startsWith("_tlp_sessid")})}function d(a,b){p();var c="";"undefined"!==typeof intercomSettings&&intercomSettings.email&&(c=intercomSettings.email);b={headers:{"content-type":"application/json"},method:"POST",
-body:JSON.stringify({data:Object.assign({href:window.location.href,sessid:"undefined"!==typeof g()?g().split("\x3d")[1]:"unknown",userAgent:navigator.userAgent,referrer:document.referrer,window:{height:window.innerHeight,width:window.innerWidth},email:c},b||{})})};try{fetch(q+"/msg/Pgd2l4pSkYmijfmvJKFP/"+a,b)["catch"](function(e){console.log(e)})}catch(e){console.log(e)}}function p(){g()||(document.cookie="_tlp_sessid\x3d"+Math.random().toString(36).substr(2,5)+"."+(new Date).getTime()+";"+m()+";Domain\x3dteleporthq.io");
-try{var a=g().split("\x3d");document.cookie=a[0]+"\x3d"+a[1]+";"+m()}catch(b){console.log(b)}}function n(){"undefined"!==typeof next&&"undefined"!==typeof next.router&&(h="next",d("tlp/page/entry"),next.router.events.on("routeChangeComplete",function(){d("tlp/page/")}));if("undefined"!==typeof $nuxt||"undefined"!==typeof __VUEPRESS__)h="vue",k();h||setTimeout(n,1E3)}function r(){window.addEventListener("click",function(a){a=a.path||a.composedPath&&a.composedPath();var b=[];a&&(b=a.map(function(c){var e=
-c.id||"",t=c["class"]||"";return c.nodeName+"("+e+"|"+t+")".replace("(|)","")}),b.splice(b.length-3));d("tlp/click",{path:b})});document.addEventListener("visibilitychange",function(){d("tlp/visibility/"+document.visibilityState)})}var q="https://eagle-es3l2.ondigitalocean.app",l="",h="",f=!0;location.hostname.endsWith("teleporthq.io")&&(n(),location.hostname.endsWith("play.teleporthq.io")||r())})();</script><div class="crisp-client"><div class="cc-l3zb"><div class="cc-lcor"><style type="text/css">.crisp-client .cc-kv6t .cc-6zjc,
-.crisp-client .cc-kv6t .cc-1mk2:hover {
-  color: #FFFFFF !important;
-}
-
-.crisp-client .cc-kv6t .cc-jq4y,
-.crisp-client .cc-kv6t .cc-5lan:hover {
-  color: #2943D1 !important;
-}
-
-.crisp-client .cc-kv6t .cc-k5w4 {
-  background-color: #FFFFFF !important;
-}
-
-.crisp-client .cc-kv6t .cc-5ekd {
-  background-color: #001797 !important;
-}
-
-.crisp-client .cc-kv6t .cc-16jc {
-  background-color: #1732C4 !important;
-}
-
-.crisp-client .cc-kv6t .cc-1ada,
-.crisp-client .cc-kv6t .cc-ew5j:before,
-.crisp-client .cc-kv6t .cc-ew5j:after {
-  background-color: #2943D1 !important;
-}
-
-.crisp-client .cc-kv6t .cc-y5jx {
-  background-color: #F5F5FB !important;
-}
-
-.crisp-client .cc-kv6t .cc-y6ot,
-.crisp-client .cc-kv6t .cc-183m:hover {
-  background-color: #F9F9F9 !important;
-}
-
-.crisp-client .cc-kv6t .cc-1ybb {
-  background-image: linear-gradient(125deg, #2943D1 -10%, #001797 100%) !important;
-}
-
-.crisp-client .cc-kv6t .cc-ofgq,
-.crisp-client .cc-kv6t .cc-fg2d:hover {
-  border-color: #FFFFFF !important;
-}
-
-.crisp-client .cc-kv6t .cc-2ydi {
-  border-color: rgba(0, 23, 151, 0.175) !important;
-}
-
-.crisp-client .cc-kv6t .cc-1aev,
-.crisp-client .cc-kv6t .cc-2hzo:hover,
-.crisp-client .cc-kv6t .cc-18sf:before,
-.crisp-client .cc-kv6t .cc-18sf:after {
-  border-color: #2943D1 !important;
-}
-
-.crisp-client .cc-kv6t .cc-1nph {
-  border-color: rgba(41, 67, 209, 0.15) !important;
-}
-
-.crisp-client .cc-kv6t .cc-1o96 {
-  border-top-color: #2943D1 !important;
-}
-
-.crisp-client .cc-kv6t .cc-ve3u,
-.crisp-client .cc-kv6t .cc-1nmg:hover {
-  border-color: #F5F5FB !important;
-}
-
-.crisp-client .cc-kv6t .cc-clw4::placeholder {
-  color: #5D73EA !important;
-}
-
-.crisp-client .cc-kv6t .cc-2n8m::placeholder {
-  color: #5D73EA !important;
-}
-
-.crisp-client .cc-kv6t .cc-3x4f,
-.crisp-client .cc-kv6t .cc-1afs:hover,
-.crisp-client .cc-kv6t .cc-3x4f:hover,
-.crisp-client .cc-kv6t .cc-1afs:active,
-.crisp-client .cc-kv6t .cc-3x4f:active,
-.crisp-client .cc-kv6t .cc-1c1d:hover .cc-1f87,
-.crisp-client .cc-kv6t .cc-1c1d .cc-1f87:active {
-  background: #001797 !important;
-}
-
-.crisp-client .cc-kv6t .cc-4xbu,
-.crisp-client .cc-kv6t .cc-caj5:hover {
-  background: #112BB9 !important;
-}
-
-.crisp-client .cc-kv6t .cc-4xbu:hover,
-.crisp-client .cc-kv6t .cc-caj5:active {
-  background: #061FA7 !important;
-}
-
-.crisp-client .cc-kv6t .cc-4xbu:active {
-  background: #001797 !important;
-}
-
-.crisp-client .cc-kv6t .cc-g73w:hover .cc-199t {
-  background: #112BB9 !important;
-}
-
-.crisp-client .cc-kv6t .cc-g73w .cc-199t:active {
-  background: #061FA7 !important;
-}
-
-.crisp-client .cc-kv6t .cc-vuur,
-.crisp-client .cc-kv6t .cc-7rgf[data-active="true"] {
-  background: #2943D1 !important;
-}
-
-.crisp-client .cc-kv6t .cc-vuur:hover,
-.crisp-client .cc-kv6t .cc-7rgf[data-active="true"]:active {
-  background: #1732C4 !important;
-}
-
-.crisp-client .cc-kv6t .cc-vuur:active {
-  background: #112BB9 !important;
-}
-
-.crisp-client .cc-kv6t .cc-1gmp::selection,
-.crisp-client .cc-kv6t .cc-1gmp *::selection {
-  color: #191919 !important;
-  background-color: #DDE2FF !important;
-}</style></div><div class="cc-1kny"><style type="text/css">.crisp-client .cc-kv6t {
-  z-index: 1000000;
-}
-</style></div></div><div id="crisp-chatbox" lang="en" dir="ltr" translate="no" data-blocked="false" data-lock-maximized="false" data-last-operator-face="false" data-availability-tooltip="false" data-hide-vacation="false" data-hide-on-away="false" data-hide-on-mobile="false" data-position-reverse="false" data-full-view="false" data-small-view="false" data-large-view="true" data-availability="away" data-is-activity-ongoing="false" data-was-availability-online="false" data-has-local-messages="false" class="cc-kv6t"><div class="cc-1xry cc-1gmp"><a data-maximized="false" data-is-failure="false" role="button" class="cc-unoo" data-cshid="966335c4-1f78-6d74-62c8-69d77642b417"><span class="cc-1c9v"><span data-id="general_entice" data-with-helpdesk="true" data-is-concealed="false" class="cc-1bue"><span class="cc-1bcp"><span class="cc-1s28 cc-kgeu"><span class="cc-tkyh"><span class="cc-1t9t"><span class="cc-g0ak cc-hy0f"></span><span data-has-avatar="true" class="cc-xc93"><span class="cc-17df"><span class="cc-od26 cc-151q">Questions? Chat with us!</span><span data-id="online" class="cc-1rau cc-kgeu">Support is online.</span><span data-id="away" class="cc-1rau cc-kgeu">Support is away.</span></span><span class="cc-56dg"><span class="cc-8exe cc-he6y"><span style="background-image: url('https://image.crisp.chat/process/thumbnail/?url=https%3A%2F%2Fstorage.crisp.chat%2Fusers%2Favatar%2Foperator%2Fa0df39b747e3e800%2Fpaul-300-300_7vnls3.jpg&amp;width=240&amp;height=240&amp;1649154125299') !important;" class="cc-1h5w cc-wsm4"></span></span></span></span></span></span><span data-when="online" class="cc-rzi5"><span class="cc-1yk0 cc-183m"><span class="cc-1viy"><span class="cc-16up cc-jq4y cc-151q">Chat with teleportHQ Team</span></span></span></span><span data-when="away" class="cc-rzi5"><span data-pop="spotlight" class="cc-1yk0 cc-183m"><span class="cc-1viy"><span class="cc-16up cc-jq4y cc-151q">Search help center</span></span></span><span class="cc-1yk0 cc-183m"><span class="cc-1viy"><span class="cc-16up cc-151q">Chat</span></span></span></span></span></span></span></span><span class="cc-7doi cc-1ada"><span data-id="chat_closed" class="cc-1iv2"><span class="cc-1yxw"><span class="cc-16qx cc-1eqr"></span></span><span data-is-ongoing="false" class="cc-15mo"></span></span></span></a></div></div></div></body></html>
+<div class="container">
+  <main class="main">
+    <div class="hero section-container">
+      <div class="max-width max-content-container">
+        <div class="content-container">
+          <h1 class="text heading1"><span>AIO Coding</span></h1>
+          <div class="input-container">
+            <button class="button button-primary">Softaim Prices</button>
+          </div>
+          <div class="features-container">
+            <div class="feature">
+              <svg viewBox="0 0 877.7142857142857 1024" class="icon">
+                <path
+                  d="M733.714 419.429c0-9.714-3.429-19.429-10.286-26.286l-52-51.429c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-233.143 232.571-129.143-129.143c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-52 51.429c-6.857 6.857-10.286 16.571-10.286 26.286s3.429 18.857 10.286 25.714l206.857 206.857c6.857 6.857 16.571 10.857 25.714 10.857 9.714 0 19.429-4 26.286-10.857l310.286-310.286c6.857-6.857 10.286-16 10.286-25.714zM877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"
+                ></path>
+              </svg>
+              <span class="text02">
+                Best and most user friendly interfaces out there!
+              </span>
+            </div>
+            <div class="feature01">
+              <svg viewBox="0 0 877.7142857142857 1024" class="icon02">
+                <path
+                  d="M733.714 419.429c0-9.714-3.429-19.429-10.286-26.286l-52-51.429c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-233.143 232.571-129.143-129.143c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-52 51.429c-6.857 6.857-10.286 16.571-10.286 26.286s3.429 18.857 10.286 25.714l206.857 206.857c6.857 6.857 16.571 10.857 25.714 10.857 9.714 0 19.429-4 26.286-10.857l310.286-310.286c6.857-6.857 10.286-16 10.286-25.714zM877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"
+                ></path>
+              </svg>
+              <span class="text03">
+                Easy to use open source programs with many uses!
+              </span>
+            </div>
+            <div class="feature02">
+              <svg viewBox="0 0 877.7142857142857 1024" class="icon04">
+                <path
+                  d="M733.714 419.429c0-9.714-3.429-19.429-10.286-26.286l-52-51.429c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-233.143 232.571-129.143-129.143c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-52 51.429c-6.857 6.857-10.286 16.571-10.286 26.286s3.429 18.857 10.286 25.714l206.857 206.857c6.857 6.857 16.571 10.857 25.714 10.857 9.714 0 19.429-4 26.286-10.857l310.286-310.286c6.857-6.857 10.286-16 10.286-25.714zM877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"
+                ></path>
+              </svg>
+              <span class="text04">
+                Our software is always up to date 24/7!
+              </span>
+            </div>
+          </div>
+        </div>
+        <img
+          alt="image"
+          src="/playground_assets/webp.net-resizeimage%20%5B1%5D-500h.png"
+          class="image"
+        />
+      </div>
+    </div>
+    <div class="section-one section-container">
+      <div class="max-width1 max-content-container">
+        <h2 class="text05 heading2">
+          <span>Only The Best With All-In-One</span>
+        </h2>
+        <div class="cards-container">
+          <feature-card
+            image_src="/playground_assets/softaimpng-modified-200h.png"
+            rootClassName="rootClassName2"
+            heading="Precision Accuracy"
+            text="Our fully external Softaim is the most accurate external Softaim on the market due to our precise calculations."
+          ></feature-card>
+          <feature-card
+            heading="Best AI Recognition"
+            image_src="/playground_assets/visualpng-modified-200h.png"
+            rootClassName="rootClassName1"
+            text="AIO Softaim utilizes state of the art AI Recognition and machine learning to recognize players in game and aim at."
+            text1=" "
+          ></feature-card>
+          <feature-card
+            text1="Learn more &gt;"
+            heading="Safety"
+            image_src="/playground_assets/safetypng-modified-200h.png"
+            rootClassName="rootClassName"
+            text="AIO Software is always the most reliable and undetected software. All of our programs are fully external and safe!"
+          ></feature-card>
+        </div>
+      </div>
+    </div>
+    <div class="section-two section-container">
+      <div class="max-width2 max-content-container">
+        <div class="container1">
+          <button class="button1 button">
+            <span class="text07"><span>Purchase</span></span>
+          </button>
+          <span class="text09"><span>$99.99</span></span>
+          <span class="text11">Teeeext</span>
+          <span class="text12">
+            <span>External Softaim</span>
+            <br />
+            <span class="text15">Lifetime</span>
+          </span>
+          <div class="features-container1">
+            <div class="feature03">
+              <svg viewBox="0 0 877.7142857142857 1024" class="icon06">
+                <path
+                  d="M733.714 419.429c0-9.714-3.429-19.429-10.286-26.286l-52-51.429c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-233.143 232.571-129.143-129.143c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-52 51.429c-6.857 6.857-10.286 16.571-10.286 26.286s3.429 18.857 10.286 25.714l206.857 206.857c6.857 6.857 16.571 10.857 25.714 10.857 9.714 0 19.429-4 26.286-10.857l310.286-310.286c6.857-6.857 10.286-16 10.286-25.714zM877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"
+                ></path>
+              </svg>
+              <span class="text16">Fully Undetected!</span>
+            </div>
+            <div class="feature04">
+              <svg viewBox="0 0 877.7142857142857 1024" class="icon08">
+                <path
+                  d="M733.714 419.429c0-9.714-3.429-19.429-10.286-26.286l-52-51.429c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-233.143 232.571-129.143-129.143c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-52 51.429c-6.857 6.857-10.286 16.571-10.286 26.286s3.429 18.857 10.286 25.714l206.857 206.857c6.857 6.857 16.571 10.857 25.714 10.857 9.714 0 19.429-4 26.286-10.857l310.286-310.286c6.857-6.857 10.286-16 10.286-25.714zM877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"
+                ></path>
+              </svg>
+              <span class="text17">Easy to Use</span>
+            </div>
+            <div class="feature05">
+              <svg viewBox="0 0 877.7142857142857 1024" class="icon10">
+                <path
+                  d="M733.714 419.429c0-9.714-3.429-19.429-10.286-26.286l-52-51.429c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-233.143 232.571-129.143-129.143c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-52 51.429c-6.857 6.857-10.286 16.571-10.286 26.286s3.429 18.857 10.286 25.714l206.857 206.857c6.857 6.857 16.571 10.857 25.714 10.857 9.714 0 19.429-4 26.286-10.857l310.286-310.286c6.857-6.857 10.286-16 10.286-25.714zM877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"
+                ></path>
+              </svg>
+              <span class="text18">24/7 Support</span>
+            </div>
+            <div class="feature06">
+              <svg viewBox="0 0 877.7142857142857 1024" class="icon12">
+                <path
+                  d="M733.714 419.429c0-9.714-3.429-19.429-10.286-26.286l-52-51.429c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-233.143 232.571-129.143-129.143c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-52 51.429c-6.857 6.857-10.286 16.571-10.286 26.286s3.429 18.857 10.286 25.714l206.857 206.857c6.857 6.857 16.571 10.857 25.714 10.857 9.714 0 19.429-4 26.286-10.857l310.286-310.286c6.857-6.857 10.286-16 10.286-25.714zM877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"
+                ></path>
+              </svg>
+              <span class="text19">
+                Fortnite, Apex, Rust, Valorant, and More!
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="container2">
+          <button class="button2 button">
+            <span class="text20"><span>Purchase</span></span>
+          </button>
+          <span class="text22">$29.99</span>
+          <span class="text23">Teeeext</span>
+          <span class="text24">
+            <span>External Softaim</span>
+            <br />
+            <span>1 Month</span>
+            <span class="text28"></span>
+          </span>
+          <div class="features-container2">
+            <div class="feature07">
+              <svg viewBox="0 0 877.7142857142857 1024" class="icon14">
+                <path
+                  d="M733.714 419.429c0-9.714-3.429-19.429-10.286-26.286l-52-51.429c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-233.143 232.571-129.143-129.143c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-52 51.429c-6.857 6.857-10.286 16.571-10.286 26.286s3.429 18.857 10.286 25.714l206.857 206.857c6.857 6.857 16.571 10.857 25.714 10.857 9.714 0 19.429-4 26.286-10.857l310.286-310.286c6.857-6.857 10.286-16 10.286-25.714zM877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"
+                ></path>
+              </svg>
+              <span class="text29">Fully Undetected!</span>
+            </div>
+            <div class="feature08">
+              <svg viewBox="0 0 877.7142857142857 1024" class="icon16">
+                <path
+                  d="M733.714 419.429c0-9.714-3.429-19.429-10.286-26.286l-52-51.429c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-233.143 232.571-129.143-129.143c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-52 51.429c-6.857 6.857-10.286 16.571-10.286 26.286s3.429 18.857 10.286 25.714l206.857 206.857c6.857 6.857 16.571 10.857 25.714 10.857 9.714 0 19.429-4 26.286-10.857l310.286-310.286c6.857-6.857 10.286-16 10.286-25.714zM877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"
+                ></path>
+              </svg>
+              <span class="text30">Easy to Use</span>
+            </div>
+            <div class="feature09">
+              <svg viewBox="0 0 877.7142857142857 1024" class="icon18">
+                <path
+                  d="M733.714 419.429c0-9.714-3.429-19.429-10.286-26.286l-52-51.429c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-233.143 232.571-129.143-129.143c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-52 51.429c-6.857 6.857-10.286 16.571-10.286 26.286s3.429 18.857 10.286 25.714l206.857 206.857c6.857 6.857 16.571 10.857 25.714 10.857 9.714 0 19.429-4 26.286-10.857l310.286-310.286c6.857-6.857 10.286-16 10.286-25.714zM877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"
+                ></path>
+              </svg>
+              <span class="text31">24/7 Support</span>
+            </div>
+            <div class="feature10">
+              <svg viewBox="0 0 877.7142857142857 1024" class="icon20">
+                <path
+                  d="M733.714 419.429c0-9.714-3.429-19.429-10.286-26.286l-52-51.429c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-233.143 232.571-129.143-129.143c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-52 51.429c-6.857 6.857-10.286 16.571-10.286 26.286s3.429 18.857 10.286 25.714l206.857 206.857c6.857 6.857 16.571 10.857 25.714 10.857 9.714 0 19.429-4 26.286-10.857l310.286-310.286c6.857-6.857 10.286-16 10.286-25.714zM877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"
+                ></path>
+              </svg>
+              <span class="text32">
+                Fortnite, Apex, Rust, Valorant, and More!
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="container3">
+          <button class="button3 button">
+            <span class="text33"><span>Purchase</span></span>
+          </button>
+          <span class="text35">$11.99</span>
+          <span class="text36">Teeeext</span>
+          <span class="text37">
+            <span>External Softaim</span>
+            <br />
+            <span>1 Week</span>
+            <span class="text41"></span>
+          </span>
+          <div class="features-container3">
+            <div class="feature11">
+              <svg viewBox="0 0 877.7142857142857 1024" class="icon22">
+                <path
+                  d="M733.714 419.429c0-9.714-3.429-19.429-10.286-26.286l-52-51.429c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-233.143 232.571-129.143-129.143c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-52 51.429c-6.857 6.857-10.286 16.571-10.286 26.286s3.429 18.857 10.286 25.714l206.857 206.857c6.857 6.857 16.571 10.857 25.714 10.857 9.714 0 19.429-4 26.286-10.857l310.286-310.286c6.857-6.857 10.286-16 10.286-25.714zM877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"
+                ></path>
+              </svg>
+              <span class="text42">Fully Undetected!</span>
+            </div>
+            <div class="feature12">
+              <svg viewBox="0 0 877.7142857142857 1024" class="icon24">
+                <path
+                  d="M733.714 419.429c0-9.714-3.429-19.429-10.286-26.286l-52-51.429c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-233.143 232.571-129.143-129.143c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-52 51.429c-6.857 6.857-10.286 16.571-10.286 26.286s3.429 18.857 10.286 25.714l206.857 206.857c6.857 6.857 16.571 10.857 25.714 10.857 9.714 0 19.429-4 26.286-10.857l310.286-310.286c6.857-6.857 10.286-16 10.286-25.714zM877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"
+                ></path>
+              </svg>
+              <span class="text43">Easy to Use</span>
+            </div>
+            <div class="feature13">
+              <svg viewBox="0 0 877.7142857142857 1024" class="icon26">
+                <path
+                  d="M733.714 419.429c0-9.714-3.429-19.429-10.286-26.286l-52-51.429c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-233.143 232.571-129.143-129.143c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-52 51.429c-6.857 6.857-10.286 16.571-10.286 26.286s3.429 18.857 10.286 25.714l206.857 206.857c6.857 6.857 16.571 10.857 25.714 10.857 9.714 0 19.429-4 26.286-10.857l310.286-310.286c6.857-6.857 10.286-16 10.286-25.714zM877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"
+                ></path>
+              </svg>
+              <span class="text44">24/7 Support</span>
+            </div>
+            <div class="feature14">
+              <svg viewBox="0 0 877.7142857142857 1024" class="icon28">
+                <path
+                  d="M733.714 419.429c0-9.714-3.429-19.429-10.286-26.286l-52-51.429c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-233.143 232.571-129.143-129.143c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-52 51.429c-6.857 6.857-10.286 16.571-10.286 26.286s3.429 18.857 10.286 25.714l206.857 206.857c6.857 6.857 16.571 10.857 25.714 10.857 9.714 0 19.429-4 26.286-10.857l310.286-310.286c6.857-6.857 10.286-16 10.286-25.714zM877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"
+                ></path>
+              </svg>
+              <span class="text45">
+                Fortnite, Apex, Rust, Valorant, and More!
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <app-copyright rootClassName="rootClassName"></app-copyright>
+</div>
+Feedbox Mobile App - TeleportHQ
