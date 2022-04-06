@@ -32,7 +32,7 @@
   bottom: 0px;
   margin: auto;
   position: absolute;
-  align-self: left;
+  align-self: right;
 }
 .feature-card-root-class-name2 {
   top: 0px;
@@ -41,7 +41,7 @@
   bottom: 0px;
   margin: auto;
   position: absolute;
-  align-self: center;
+  align-self: left;
 }
 .feature-card-root-class-name3 {
   top: 0px;
@@ -49,7 +49,7 @@
   bottom: 0px;
   margin: auto;
   position: absolute;
-  align-self: right;
+  align-self: center;
 }
 @media(max-width: 767px) {
   .feature-card-card {
