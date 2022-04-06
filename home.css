@@ -180,7 +180,6 @@
   display: flex;
   align-items: right;
   margin-bottom: 20px; 
-  margin-left: 200px; /*left*/
   flex-direction: row;
 }
 .home-icon02 {
@@ -201,7 +200,6 @@
   width: 100%;
   display: flex;
   align-items: left;
-  margin-left: 100px; /*left*/
   flex-direction: row;
 }
 .home-icon04 {
