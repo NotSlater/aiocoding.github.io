@@ -178,8 +178,9 @@
   flex: 0 0 auto;
   width: 100%;
   display: flex;
-  align-items: center;
-  margin-bottom: 20px;
+  align-items: right;
+  margin-bottom: 20px; 
+  margin-left: 200px; /*left*/
   flex-direction: row;
 }
 .home-icon02 {
@@ -199,7 +200,8 @@
   flex: 0 0 auto;
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items: left;
+  margin-left: 100px; /*left*/
   flex-direction: row;
 }
 .home-icon04 {
