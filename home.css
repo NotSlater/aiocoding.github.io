@@ -28,6 +28,7 @@
 }
 .feature-card-root-class-name {
   top: 20px;
+  margin-left: 337px;
   position: absolute;
 }
 .feature-card-root-class-name1 {
@@ -38,7 +39,6 @@
 }
 .feature-card-root-class-name2 {
   top: 20px;
-  margin-left: 337px;
   position: absolute;
 }
 @media(max-width: 767px) {
