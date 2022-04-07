@@ -28,28 +28,18 @@
 }
 .feature-card-root-class-name {
   top: 20px;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
-  margin-left: 335px;
-  margin-right: 0px;
   position: absolute;
-  align-self: right;
 }
 .feature-card-root-class-name1 {
   top: 20px;
-  left: 0px;
-  bottom: 0px;
   margin-left: 675px;
   position: absolute;
   align-self: center;
 }
 .feature-card-root-class-name2 {
   top: 20px;
-  left: 0px;
-  margin-left: 0px;
+  margin-left: 337px;
   position: absolute;
-  align-self: left;
 }
 @media(max-width: 767px) {
   .feature-card-card {
