@@ -2,8 +2,8 @@
 
 <html lang="en">
   <head>
-    <title>Feedbox Mobile App</title>
-    <meta property="og:title" content="Feedbox Mobile App" />
+    <title>AIO Coding</title>
+    <meta property="og:title" content="AIO Coding" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
@@ -25,7 +25,7 @@
         letter-spacing: normal;
         line-height: 1.1;
         color: var(--dl-color-grays-black100);
-        background-color: var(--dl-color-grays-gray100);
+        background-color: var(--dl-color-grays-gray100);G
 
       }
     </style>
@@ -107,7 +107,7 @@
               </div>
               <img
                 alt="image"
-                src="public/playground_assets/webp.net-resizeimage%20%5B1%5D-500h.png"
+                src="AIOLogo.png"
                 class="home-image"
               />
             </div>
@@ -121,7 +121,7 @@
                 <div class="feature-card-card feature-card-root-class-name3">
                   <img
                     alt="image"
-                    src="public/playground_assets/softaimpng-modified-200h.png"
+                    src="softaimpng.png"
                     class="feature-card-image"
                   />
                   <h4 class="feature-card-text heading4">
@@ -137,7 +137,7 @@
                 <div class="feature-card-card feature-card-root-class-name3">
                   <img
                     alt="image"
-                    src="public/playground_assets/visualpng-modified-200h.png"
+                    src="visualpng.png"
                     class="feature-card-image"
                   />
                   <h4 class="feature-card-text heading4">
@@ -153,7 +153,7 @@
                 <div class="feature-card-card feature-card-root-class-name3">
                   <img
                     alt="image"
-                    src="public/playground_assets/safetypng-modified-200h.png"
+                    src="safetypng.png"
                     class="feature-card-image"
                   />
                   <h4 class="feature-card-text heading4">
@@ -483,94 +483,9 @@
               target="_blank"
               rel="noreferrer noopener"
             ></a>
-            <a
-              href="https://www.vercel.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            ></a>
-            <a
-              href="https://www.unsplash.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            ></a>
           </span>
         </div>
       </div>
     </div>
-    <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
-    <script>
-      window.onload = () => {
-        const runAllScripts = () => {
-          initializeAllSliders();
-        };
-
-        const listenForUrlChanges = () => {
-          let url = location.href;
-          document.body.addEventListener(
-            "click",
-            () => {
-              requestAnimationFrame(() => {
-                if (url !== location.href) {
-                  runAllScripts();
-                  url = location.href;
-                }
-              });
-            },
-            true
-          );
-        };
-
-        const initializeAllSliders = () => {
-          const allSliders = document.querySelectorAll('[data-type="slider"]');
-          allSliders.forEach((carrousel) => {
-            initializeSlider(carrousel);
-          });
-        };
-
-        const initializeSlider = (carrousel) => {
-          let currentSlide = 0;
-
-          const slides = carrousel.querySelectorAll('[data-type="slide"]');
-          const nextSlideBtns = carrousel.querySelectorAll(
-            '[data-action="nextSlide"]'
-          );
-          const previousSlideBtns = carrousel.querySelectorAll(
-            '[data-action="previousSlide"]'
-          );
-
-          const changeSlide = (slideIndex, action) => {
-            currentSlide = slideIndex;
-
-            switch (action) {
-              case "next":
-                slideIndex === slides.length - 1
-                  ? (currentSlide = 0)
-                  : currentSlide++;
-                break;
-              case "previous":
-                slideIndex === 0
-                  ? (currentSlide = slides.length - 1)
-                  : currentSlide--;
-            }
-
-            carrousel.style.transform = `translateX(${-100 * currentSlide}%)`;
-          };
-
-          previousSlideBtns.forEach((btn) => {
-            btn.addEventListener("click", () =>
-              changeSlide(currentSlide, "previous")
-            );
-          });
-
-          nextSlideBtns.forEach((btn) => {
-            btn.addEventListener("click", () =>
-              changeSlide(currentSlide, "next")
-            );
-          });
-        };
-
-        runAllScripts();
-      };
-    </script>
   </body>
 </html>
